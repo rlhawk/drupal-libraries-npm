@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function example_module_page_attachments_alter(&$page) {
+  $page['#attached']['library'][] = 'example_module/copy-clipboard';
+}

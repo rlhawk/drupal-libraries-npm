@@ -1,0 +1,7 @@
+name: 'Example Module'
+type: module
+description: 'A module that uses the libraries provided by Example Libraries.'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - example_libraries:example_libraries
