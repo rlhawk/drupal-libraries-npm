@@ -1,0 +1,6 @@
+# Clipboard.js library.
+# https://clipboardjs.com/
+clipboardjs:
+  version: 2.0.1
+  js:
+    /libraries/clipboard/clipboard.min.js: { minified: true }
