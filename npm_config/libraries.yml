@@ -1,0 +1,32 @@
+  # Slick
+  - src:
+      - "./node_modules/slick-carousel/slick/*.min.js"
+      - "./node_modules/slick-carousel/slick/*.css"
+    dest: "slick/slick"
+
+  # Colorbox
+  - src: "./node_modules/jquery-colorbox/jquery.colorbox-min.js"
+    dest: "colorbox"
+
+  # Chosen
+  - src:
+      - "./node_modules/chosen-js/*.js"
+      - "./node_modules/chosen-js/*.css"
+    dest: "chosen"
+
+  # Cropper
+  - src:
+      - "./node_modules/cropper/dist/cropper.min.js"
+      - "./node_modules/cropper/dist/cropper.min.css"
+    dest: "cropper"
+
+  # DropzoneJS
+  - src:
+      - "./node_modules/dropzone/dist/min/dropzone.min.js"
+      - "./node_modules/dropzone/dist/min/dropzone.min.css"
+    dest: "dropzone/dist/min"
+
+  # Clipboard.js
+  - src:
+      - "./node_modules/clipboard/dist/clipboard.min.js"
+    dest: "clipboard"
