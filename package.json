@@ -17,7 +17,6 @@
     "clipboard": "^2.0.1",
     "cropper": "^4.0.0",
     "dropzone": "^5.5.1",
-    "foundation-sites": "^6.5.0-rc.4",
     "jquery-colorbox": "^1.6.4",
     "slick-carousel": "^1.8.1"
   },
