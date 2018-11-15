@@ -1,1 +1,1 @@
-# drupal-libraries-example
+# drupal-libraries-npm
