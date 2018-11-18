@@ -1,32 +1,39 @@
-  # Slick
-  - src:
-      - "./node_modules/slick-carousel/slick/*.min.js"
-      - "./node_modules/slick-carousel/slick/*.css"
-    dest: "slick/slick"
+# Slick
+slick:
+  src:
+    - "./node_modules/slick-carousel/slick/*.min.js"
+    - "./node_modules/slick-carousel/slick/*.css"
+  dest: "{libraries}/slick/slick"
 
-  # Colorbox
-  - src: "./node_modules/jquery-colorbox/jquery.colorbox-min.js"
-    dest: "colorbox"
+# Colorbox
+colorbox:
+  src: "./node_modules/jquery-colorbox/jquery.colorbox-min.js"
+  dest: "{libraries}/colorbox"
 
-  # Chosen
-  - src:
-      - "./node_modules/chosen-js/*.js"
-      - "./node_modules/chosen-js/*.css"
-    dest: "chosen"
+# Chosen
+chosen:
+  src:
+    - "./node_modules/chosen-js/*.js"
+    - "./node_modules/chosen-js/*.css"
+  dest: "{libraries}/chosen"
+  exclude: "./node_modules/chosen-js/chosen.proto.*"
 
-  # Cropper
-  - src:
-      - "./node_modules/cropper/dist/cropper.min.js"
-      - "./node_modules/cropper/dist/cropper.min.css"
-    dest: "cropper"
+# Cropper
+cropper:
+  src:
+    - "./node_modules/cropper/dist/cropper.min.js"
+    - "./node_modules/cropper/dist/cropper.min.css"
+  dest: "{libraries}/cropper"
 
-  # DropzoneJS
-  - src:
-      - "./node_modules/dropzone/dist/min/dropzone.min.js"
-      - "./node_modules/dropzone/dist/min/dropzone.min.css"
-    dest: "dropzone/dist/min"
+# DropzoneJS
+dropzone:
+  src:
+    - "./node_modules/dropzone/dist/min/dropzone.min.js"
+    - "./node_modules/dropzone/dist/min/dropzone.min.css"
+  dest: "{libraries}/dropzone/dist/min"
 
-  # Clipboard.js
-  - src:
-      - "./node_modules/clipboard/dist/clipboard.min.js"
-    dest: "clipboard"
+# Clipboard.js
+clipboard.js:
+  src:
+    - "./node_modules/clipboard/dist/clipboard.min.js"
+  dest: "{libraries}/clipboard"
