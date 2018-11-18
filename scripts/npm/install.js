@@ -58,7 +58,7 @@ function cleanLibrary(element) {
   element.src.forEach(function (filePath) {
     var fileName = filePath.substring(filePath.lastIndexOf('/') + 1);
     files.push(element.dest + '/' + fileName);
-  })
+  });
 
   // Delete the files.
   del(files);
