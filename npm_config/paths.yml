@@ -1,1 +1,1 @@
-libraries_dir: "./web/libraries"
+libraries: "./web/libraries"
