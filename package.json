@@ -1,17 +1,17 @@
 {
-  "name": "drupal-libraries-example",
+  "name": "drupal-libraries-npm",
   "version": "1.0.0",
   "description": "Example files for implementing a custom libraries solution in Drupal.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rlhawk/drupal-libraries-example.git"
+    "url": "git+https://github.com/rlhawk/drupal-libraries-npm.git"
   },
   "author": "Rick Hawkins",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/rlhawk/drupal-libraries-example/issues"
+    "url": "https://github.com/rlhawk/drupal-libraries-npm/issues"
   },
-  "homepage": "https://github.com/rlhawk/drupal-libraries-example#readme",
+  "homepage": "https://github.com/rlhawk/drupal-libraries-npm#readme",
   "dependencies": {
     "blazy": "^1.8.2",
     "chosen-js": "^1.8.7",
