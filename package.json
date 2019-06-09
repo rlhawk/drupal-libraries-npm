@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "copy-files-from-to": "^1.3.0"
+  },
+  "scripts": {
+    "copy": "copy-files-from-to"
   }
 }
