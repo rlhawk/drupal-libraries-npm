@@ -1,0 +1,88 @@
+{
+  "copyFiles": [
+    {
+      "//": "--- Clipboard.js ---",
+      "from": "node_modules/clipboard/dist/clipboard.js",
+      "to": "web/libraries/clipboard/clipboard.js"
+    },
+    {
+      "//": "--- Colorbox ---",
+      "from": "node_modules/jquery-colorbox/jquery.colorbox.js",
+      "to": "web/libraries/colorbox/jquery.colorbox.js"
+    },
+    {
+      "//": "--- Cropper ---",
+      "from": [
+        "node_modules/cropper/dist/cropper.common.js",
+        "node_modules/cropper/dist/cropper.css"
+      ],
+      "to": "web/libraries/cropper/",
+      "toFlat": true
+    },
+    {
+      "//": "--- Dropzone ---",
+      "from": [
+        "node_modules/dropzone/dist/dropzone.js",
+        "node_modules/dropzone/dist/dropzone.css"
+      ],
+      "to": "web/libraries/dropzone/dist/",
+      "toFlat": true
+    },
+    {
+      "//": "--- Slick ---",
+      "from": [
+        "node_modules/slick-carousel/slick/slick.js",
+        "node_modules/slick-carousel/slick/*.css"
+      ],
+      "to": "web/libraries/slick/slick/",
+      "toFlat": true
+    },
+    {
+      "from": [
+        "node_modules/slick-carousel/slick/fonts/*"
+      ],
+      "to": "web/libraries/slick/slick/fonts/",
+      "toFlat": true
+    },
+    {
+      "//": "--- Blazy ---",
+      "from": "node_modules/blazy/blazy.js",
+      "to": "web/libraries/blazy/blazy.js"
+    },
+    {
+      "//": "--- Chosen ---",
+      "from": [
+        "node_modules/chosen-js/*.js",
+        "node_modules/chosen-js/*.css",
+        "node_modules/chosen-js/*.png",
+        "!node_modules/chosen-js/chosen.proto.*"
+      ],
+      "to": "web/libraries/chosen/",
+      "toFlat": true
+    },
+    {
+      "//": "--- Stickybits ---",
+      "from": "node_modules/stickybits/dist/jquery.stickybits.js",
+      "to": "web/libraries/stickybits/jquery.stickybits.js"
+    },
+    {
+      "//": "--- Open Sans font ---",
+      "from": "node_modules/typeface-open-sans/index.css",
+      "to": "web/libraries/typeface-open-sans/index.css"
+    },
+    {
+      "from": "node_modules/typeface-open-sans/files/*",
+      "to": "web/libraries/typeface-open-sans/files/",
+      "toFlat": true
+    },
+    {
+      "//": "--- Roboto font ---",
+      "from": "node_modules/typeface-roboto/files/*",
+      "to": "web/themes/custom/example_theme/fonts/roboto/",
+      "toFlat": true
+    }
+  ],
+  "settings": {
+    "whenFileExists": "overwrite"
+  }
+}
