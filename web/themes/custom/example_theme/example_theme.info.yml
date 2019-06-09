@@ -1,0 +1,5 @@
+name: Example Theme
+description: "An example theme."
+type: theme
+core: 8.x
+base theme: false
