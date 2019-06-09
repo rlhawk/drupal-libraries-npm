@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ * Hook implementations and other global functions.
+ */
+
+/**
  * Implements hook_page_attachments_alter().
  */
 function example_module_page_attachments_alter(&$page) {
