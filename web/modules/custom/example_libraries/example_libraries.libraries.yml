@@ -1,6 +1,76 @@
-# Clipboard.js library.
-# https://clipboardjs.com/
+# Clipboard.js
 clipboardjs:
-  version: 2.0.1
+  version: 2.0.4
   js:
-    /libraries/clipboard/clipboard.min.js: { minified: true }
+    /libraries/clipboard/clipboard.js: {}
+
+# Colorbox
+colorbox:
+  version: 1.6.4
+  js:
+    /libraries/colorbox/jquery.colorbox.js: {}
+  dependencies:
+    - core/jquery
+
+# Cropper
+cropper:
+  version: 4.0.0
+  css:
+    component:
+      /libraries/cropper/cropper.css: {}
+  js:
+    /libraries/cropper/cropper.common.js: { }
+
+# Dropzone
+dropzone:
+  version: 5.5.1
+  css:
+    component:
+      /libraries/dropzone/dist/min/dropzone.css: {}
+  js:
+    /libraries/dropzone/dist/min/dropzone.js: {}
+
+# Slick
+slick:
+  version: 1.8.1
+  css:
+    component:
+      /libraries/slick/slick/slick.css: {}
+    theme:
+      /libraries/slick/slick/slick-theme.css: {}
+  js:
+    /libraries/slick/slick/slick.js: {}
+  dependencies:
+    - example_libraries/blazy
+
+# Blazy
+blazy:
+  version: 1.8.2
+  js:
+    /libraries/blazy/blazy.js: {}
+
+# Stickybits
+stickybits:
+  version: 3.6.6
+  js:
+    /libraries/stickybits/jquery.stickybits.js: {}
+  dependencies:
+    - core/jquery
+
+# Chosen
+chosen:
+  version: 1.8.7
+  css:
+    component:
+      /libraries/chosen/chosen.css: {}
+  js:
+    /libraries/chosen/chosen.jquery.js: {}
+  dependencies:
+    - core/jquery
+
+# Open Sans font
+open-sans:
+  version: 0.0.54
+  css:
+    base:
+      /libraries/typeface-open-sans/index.css: {}
