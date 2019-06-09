@@ -29,6 +29,6 @@
     "rimraf": "^2.6.3"
   },
   "scripts": {
-    "copy": "copy-files-from-to"
+    "copy": "rimraf web/libraries && copy-files-from-to"
   }
 }
