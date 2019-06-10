@@ -1,6 +1,6 @@
 copy-clipboard:
   version: VERSION
   js:
-    copy-clipboard.js: {}
+    js/copy-clipboard.js: {}
   dependencies:
     - example_libraries/clipboardjs
