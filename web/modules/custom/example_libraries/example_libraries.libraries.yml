@@ -2,13 +2,13 @@
 clipboardjs:
   version: 2.0.4
   js:
-    /libraries/clipboard/clipboard.min.js: {}
+    /libraries/clipboard/clipboard.min.js: { minified: true }
 
 # Colorbox
 colorbox:
   version: 1.6.4
   js:
-    /libraries/colorbox/jquery.colorbox-min.js: {}
+    /libraries/colorbox/jquery.colorbox-min.js: { minified: true }
   dependencies:
     - core/jquery
 
@@ -19,7 +19,7 @@ cropper:
     component:
       /libraries/cropper/cropper.css: {}
   js:
-    /libraries/cropper/cropper.min.js: { }
+    /libraries/cropper/cropper.min.js: { minified: true }
 
 # Dropzone
 dropzone:
@@ -28,7 +28,7 @@ dropzone:
     component:
       /libraries/dropzone/dist/dropzone.css: {}
   js:
-    /libraries/dropzone/dist/min/dropzone.min.js: {}
+    /libraries/dropzone/dist/min/dropzone.min.js: { minified: true }
 
 # Slick
 slick:
@@ -39,7 +39,7 @@ slick:
     theme:
       /libraries/slick/slick/slick-theme.css: {}
   js:
-    /libraries/slick/slick/slick.min.js: {}
+    /libraries/slick/slick/slick.min.js: { minified: true }
   dependencies:
     - example_libraries/blazy
 
@@ -47,13 +47,13 @@ slick:
 blazy:
   version: 1.8.2
   js:
-    /libraries/blazy/blazy.min.js: {}
+    /libraries/blazy/blazy.min.js: { minified: true }
 
 # Stickybits
 stickybits:
   version: 3.6.6
   js:
-    /libraries/stickybits/jquery.stickybits.js: {}
+    /libraries/stickybits/jquery.stickybits.min.js: { minified: true }
   dependencies:
     - core/jquery
 
@@ -64,7 +64,7 @@ chosen:
     component:
       /libraries/chosen/chosen.css: {}
   js:
-    /libraries/chosen/chosen.jquery.min.js: {}
+    /libraries/chosen/chosen.jquery.min.js: { minified: true }
   dependencies:
     - core/jquery
 

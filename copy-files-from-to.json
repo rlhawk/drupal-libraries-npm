@@ -62,8 +62,8 @@
     },
     {
       "//": "--- Stickybits ---",
-      "from": "node_modules/stickybits/dist/jquery.stickybits.js",
-      "to": "web/libraries/stickybits/jquery.stickybits.js"
+      "from": "node_modules/stickybits/dist/jquery.stickybits.min.js",
+      "to": "web/libraries/stickybits/jquery.stickybits.min.js"
     },
     {
       "//": "--- Open Sans font ---",
